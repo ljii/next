@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
 
     async redirects() {
       return [
-        {source: '/unos',destination: 'https://mrjaz.com',permanent: true,},
+        {source: '/next/unos',destination: 'https://mrjaz.com',permanent: true,},
       ]
     },
 
